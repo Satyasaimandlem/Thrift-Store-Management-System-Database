@@ -56,7 +56,9 @@ Eliminating transitive dependency, partial dependency, and other potential relat
 We began building tables in MySQL after our relationships were in 3 NF. 
  
  After creating the initial ERD, we added the relations between different tables and forward engineered ERD to create our database tables for the physical design. However, there were some tables that were not in 3NF and hence, we created one more table- order details. Also added another table for seller shipment details. Because each had a unique primary key, we were unable to manage both customer and vendor shipment information in a single database. To reflect that, an additional table has been made. And then reverse engineered the database to generate the final ER diagram shown below:    
-  
+ 
+ ![image](https://user-images.githubusercontent.com/129209796/228320473-cc034e7b-3c06-4baa-a92b-8b7d1e193be1.png)
+
  
    
  ER Diagram of Online Shopping Thrift Store   
