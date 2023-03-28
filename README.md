@@ -14,6 +14,7 @@ Table of Contents
    	   	
  
 Introduction 
+
 The domain of our project is a small eCommerce-based project that allows users to buy/sell second hand clothes to/from other users.  
 Conceptual Design   
 Conceptual database design involves modelling the collected information at a high-level of abstraction without using a particular data model or DBMS. It required identifying the entities, properties, and relationships between the entities. Eight entities make up the database design for the online shopping system.  
